@@ -104,7 +104,7 @@ shinyUI(navbarPage("Lobster Closed Areas", id="nav",
                 }
                 }
                 
-                var TIMEOUT = 1000; //SPECIFY
+                var TIMEOUT = 100000; //SPECIFY
                 var started = false;
                 function getLocationRepeat(){
                 //first time only - no delay needed
